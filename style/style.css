@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root{
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-grey: hsl(217, 12%, 63%);
+    --color-mediumgrey: hsl(216, 12%, 54%);
+    --color-darkblue: hsl(213, 19%, 18%);
+    --color-verydarkblue: hsl(216, 12%, 8%);
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: #000;
+    color: #fff;
+    height: 98vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-charllenge-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, var(--color-darkblue), var(--color-verydarkblue));
+    min-height: 350px;
+    width: 380px;
+    border-radius: 30px;
+}
+/* Página de avaliação */
+.container-display-home{
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 350px;
+    padding: 30px;
+}
+.star-container{
+    height: 30px;
+    width: 30px;
+    background-color: hsl(212, 14%, 23%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.star-icon{
+    height: 12px;
+    width: 12px;
+
+}
+h1{
+    font-weight: 700;
+}
+.container-display-home h1{
+    margin: 20px 0 10px 0;
+}
+p{
+    font-size: 15px;
+    color: var(--color-mediumgrey);
+    font-weight: 400;
+    margin: 0;
+}
+.container-display-home p{
+    margin: 0 0 30px 0;
+}
+.container-btn-number{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-choise{
+    background-color: hsl(213, 16%, 22%);
+    color: var(--color-light-grey);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btn-choise:hover{
+    background-color: #fe7612;
+    color: #fff;
+}
+.btn-choise:focus{
+    background-color: var(--color-light-grey);
+    color: #fff;
+}
+.btn-submit{
+    background-color: #fe7612;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    margin: 30px 0 0 0;
+    border-radius: 30px;
+    height: 40px;
+}
+
+.btn-submit:hover{
+    color: #fe7612;
+    background-color: #fff;
+
+}
+
+/* fim da pagina de avaliação */
+
+.container-display-tank{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 350px;
+    padding: 60px;
+}
+
+.result-selection{
+    background-color: hsl(213, 16%, 22%);
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 30px 0 10px 0;
+
+}
+.result-selection p{
+    color: #f18131;
+}
+.container-display-tank p{
+    text-align: center;
+}
+
+.attribution{
+    margin-top: 20px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<section class="container-charllenge-home">
+
+  <div class="container-display-home">
+    <div class="star-container"> <img class="star-icon" src="/images/icon-star.svg" alt=""></div>
+
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+   
+    <div class="container-btn-number">
+      <input class="btn-choise" type="button" value="1" onclick="selectNumber(1)">
+      <input class="btn-choise" type="button" value="2" onclick="selectNumber(2)">
+      <input class="btn-choise" type="button" value="3" onclick="selectNumber(3)">
+      <input class="btn-choise" type="button" value="4" onclick="selectNumber(4)">
+      <input class="btn-choise" type="button" value="5" onclick="selectNumber(5)">
+    </div>
+  
+    <input type="submit" class="btn-submit" value="Submit" onclick="evaluation()">
+  </div>
+
+  <div class="container-display-tank">
+    <img src="/images/illustration-thank-you.svg" alt="">
+    <div class="result-selection">
+      <p>You selected <strong class="evaluation-number"></strong> out of 5</p>
+
+    </div>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </div>
+
+</section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script>
+    const wayEvaluation = document.querySelector('.evaluation-number')
+    const wayDisplayHome = document.querySelector('div.container-display-home')
+    const wayDisplayTank = document.querySelector('div.container-display-tank')
+
+    let number = []
+
+    function selectNumber(num){
+      number = []
+      number.push(num)
+    }
+
+    function evaluation(){
+        wayDisplayHome.style.display = 'none'
+        wayDisplayTank.style.display = 'flex'
+
+        wayEvaluation.innerHTML = number
+      }
+
+  </script>
+</body>
+</html>
