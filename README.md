@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-[Acesse o site para visualização!]https://deybisonbr.github.io/challenge-Interactive-hub/) challenges help you improve your coding skills by building realistic projects.
+[Acesse o site para visualização!](https://deybisonbr.github.io/challenge-Interactive-hub/) challenges help you improve your coding skills by building realistic projects.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
