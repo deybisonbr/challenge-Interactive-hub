@@ -131,7 +131,6 @@ p{
     color: #f18131;
 }
 .error-msg{
-    display: none;
     padding-top: 2px;
     text-align: center;
     color: red;

@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-  <div><p class="error-msg">Necessário selecionar um dos numeros!</p></div>
+  <div><p class="error-msg"></p></div>
 <main class="container-charllenge-home">
 
   <section class="container-display-home">
@@ -65,12 +65,13 @@
       number = []
       number.push(num)
     }
-
+    
     function evaluation(){
 
       if(number.length == 0){
-        errorMsg.style.display = 'flex'
+        errorMsg.innerHTML = 'Necessário selecionar um dos numeros!'
       }else{
+        errorMsg.innerHTML = ''
         wayDisplayHome.style.display = 'none'
         wayDisplayTank.style.display = 'flex'
 
