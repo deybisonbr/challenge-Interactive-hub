@@ -95,9 +95,9 @@ p{
 .btn-submit{
     background-color: #fe7612;
     text-transform: uppercase;
+    margin: 30px 0 0 0;
     border: none;
     color: #fff;
-    margin: 30px 0 0 0;
     border-radius: 30px;
     height: 40px;
 }
@@ -130,6 +130,12 @@ p{
 .result-selection p{
     color: #f18131;
 }
+.error-msg{
+    display: none;
+    padding-top: 2px;
+    text-align: center;
+    color: red;
+}
 .container-display-tank p{
     text-align: center;
 }
@@ -137,3 +143,4 @@ p{
 .attribution{
     margin-top: 20px;
 }
+

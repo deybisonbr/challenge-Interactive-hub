@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-
+  <div><p class="error-msg">Necessário selecionar um dos numeros!</p></div>
 <main class="container-charllenge-home">
 
   <section class="container-display-home">
@@ -23,7 +23,6 @@
     <h1>How did we do?</h1>
     <p>Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
-   
     <div class="container-btn-number">
       <input class="btn-choise" type="button" value="1" onclick="selectNumber(1)">
       <input class="btn-choise" type="button" value="2" onclick="selectNumber(2)">
@@ -31,8 +30,10 @@
       <input class="btn-choise" type="button" value="4" onclick="selectNumber(4)">
       <input class="btn-choise" type="button" value="5" onclick="selectNumber(5)">
     </div>
-  
+
+    
     <input type="submit" class="btn-submit" value="Submit" onclick="evaluation()">
+    
   </section>
 
   <section class="container-display-tank">
@@ -56,6 +57,7 @@
     const wayEvaluation = document.querySelector('.evaluation-number')
     const wayDisplayHome = document.querySelector('section.container-display-home')
     const wayDisplayTank = document.querySelector('section.container-display-tank')
+    const errorMsg = document.querySelector('p.error-msg')
 
     let number = []
 
@@ -65,11 +67,18 @@
     }
 
     function evaluation(){
+
+      if(number.length == 0){
+        errorMsg.style.display = 'flex'
+      }else{
         wayDisplayHome.style.display = 'none'
         wayDisplayTank.style.display = 'flex'
 
         wayEvaluation.innerHTML = number
       }
+
+    }
+
 
   </script>
 </body>
