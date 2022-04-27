@@ -7,7 +7,7 @@ Tecnologias usadas:
 ![Prévia do hub](./design/preview.jpg)
 
 
-## Seja Bom Vindo! ??
+## Seja Bom Vindo!
 
 [Acesse o site para visualização!](https://deybisonbr.github.io/challenge-Interactive-hub/) ao clicar nesse link você consegue interagir com esse hub através do GitHub Pages.
 
