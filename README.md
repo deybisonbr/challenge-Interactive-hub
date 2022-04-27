@@ -1,4 +1,5 @@
 #Desafio Frontend Mentor - Interactive rating component
+[Acesse o site para visualização!](https://deybisonbr.github.io/challenge-Interactive-hub/) ao clicar nesse link você consegue interagir com esse hub através do GitHub Pages.
 
 
 ![Prévia do hub](./design/preview.jpg)
@@ -7,9 +8,6 @@ Tecnologias usadas:
   <img align="center" alt="daybison-CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
 ## Seja Bom Vindo!
-
-[Acesse o site para visualização!](https://deybisonbr.github.io/challenge-Interactive-hub/) ao clicar nesse link você consegue interagir com esse hub através do GitHub Pages.
-
 
 Desafio: Criar um Hub interativo onde o usuario vai dar uma nota ao atendimento de 1 ao 5, ao clicar em um dos numeros e em submit, o hub vai retornar o valor que
 o usuario selecionou e a nota maxima que pode ser selecionada.
