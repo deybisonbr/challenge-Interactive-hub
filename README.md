@@ -24,3 +24,4 @@ Ao selecionar um dos numeros (exemplo 4) ficará em foco e mudará a cor para ci
 
 Ao clicar em submit é retornado o hub muda onde é retornado a nota selecionada e o numero maximo da nota que o usuário pode selecionar:
 ![Prévia do retorno da nota!](./design/return-thanks.jpg)
+Agradeço pela visualização.
