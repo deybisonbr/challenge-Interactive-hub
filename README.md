@@ -1,5 +1,5 @@
 #Desafio Frontend Mentor - Interactive rating component
-- [Acesse o site para visualização!](https://deybisonbr.github.io/challenge-Interactive-hub/) ao clicar nesse link você consegue interagir com esse hub através do GitHub Pages.
+- [Acesse o GitHub Pages para visualização!](https://deybisonbr.github.io/challenge-Interactive-hub/) ao clicar nesse link você consegue interagir com esse hub através do GitHub Pages.
 
 
 ![Prévia do hub](./design/preview.jpg)
